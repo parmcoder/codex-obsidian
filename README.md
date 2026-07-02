@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="plugins/codex-obsidian/assets/logo.svg" alt="Codex Obsidian logo" width="520">
+  <img src="plugins/codex-obsidian/assets/icon.svg" alt="Codex Obsidian icon" width="180">
 </p>
 
 <p align="center">
