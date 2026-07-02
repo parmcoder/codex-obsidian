@@ -1,9 +1,9 @@
 ---
-name: obsidian-doc-writer
+name: codex-obsidian-writer
 description: Use when writing or restructuring technical documentation inside an existing Obsidian vault, especially for architecture notes, ADRs, runbooks, API docs, Mermaid diagrams, Canvas boards, or Bases indexes.
 ---
 
-# Obsidian Doc Writer
+# Codex Obsidian Writer
 
 Write technical documentation for an existing Obsidian vault. Stay Markdown-first, but switch to Mermaid, JSON Canvas, or Obsidian Bases when those formats fit better.
 
@@ -31,11 +31,11 @@ Use Mermaid before Canvas when the diagram still reads clearly as text.
 
 Reuse these when they are available instead of re-explaining their syntax:
 
-- `obsidian-markdown` for note structure, frontmatter, callouts, wikilinks, embeds, and Mermaid blocks
-- `json-canvas` for `.canvas` files
-- `obsidian-bases` for `.base` files
-- `obsidian-cli` when interacting with a running Obsidian app or vault operations matter
-- `defuddle` when turning web docs into clean Markdown source material
+- `codex-obsidian-markdown` for note structure, frontmatter, callouts, wikilinks, embeds, and Mermaid blocks
+- `codex-obsidian-canvas` for `.canvas` files
+- `codex-obsidian-bases` for `.base` files
+- `codex-obsidian-cli` when interacting with a running Obsidian app or vault operations matter
+- `codex-obsidian-web-import` when turning web docs into clean Markdown source material
 
 If those skills are not available, still produce valid Obsidian-friendly output with the same routing rules.
 

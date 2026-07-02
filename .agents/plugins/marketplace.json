@@ -1,14 +1,14 @@
 {
-  "name": "obsidian-doc-writer",
+  "name": "codex-obsidian",
   "interface": {
-    "displayName": "Obsidian Doc Writer"
+    "displayName": "Codex Obsidian"
   },
   "plugins": [
     {
-      "name": "obsidian-doc-writer",
+      "name": "codex-obsidian",
       "source": {
         "source": "local",
-        "path": "./plugins/obsidian-doc-writer"
+        "path": "./plugins/codex-obsidian"
       },
       "policy": {
         "installation": "AVAILABLE",

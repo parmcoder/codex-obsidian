@@ -1,0 +1,32 @@
+{
+  "name": "codex-obsidian",
+  "version": "0.2.0",
+  "description": "Bundled Codex plugin for Obsidian writing, open formats, and official desktop CLI workflows.",
+  "author": {
+    "name": "parmcoder"
+  },
+  "repository": "https://github.com/parmcoder/obsidian-doc-writer",
+  "license": "Apache-2.0",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Obsidian",
+    "shortDescription": "Bundled Obsidian skills for writing and official CLI workflows",
+    "longDescription": "Packages docs-first writing, Obsidian markdown and open-format skills, and focused official desktop CLI workflows for notes, bases, bookmarks, runtime admin, devtools, sync, workspace navigation, and orchestration.",
+    "developerName": "parmcoder",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use codex-obsidian-writer to draft an ADR and link it to related notes.",
+      "Use codex-obsidian-markdown to clean up this Obsidian note.",
+      "Use codex-obsidian-cli to read a note from my vault through the official desktop obsidian CLI.",
+      "Use codex-obsidian-cli-workflows with workflow_id=tasks.rollup mode=preview output=json."
+    ],
+    "brandColor": "#5C43A8",
+    "websiteURL": "https://github.com/parmcoder/obsidian-doc-writer",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg"
+  }
+}
