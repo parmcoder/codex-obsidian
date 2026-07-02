@@ -52,7 +52,7 @@ codex plugin add codex-obsidian@codex-obsidian
 From GitHub:
 
 ```bash
-codex plugin marketplace add parmcoder/obsidian-doc-writer
+codex plugin marketplace add parmcoder/codex-obsidian
 codex plugin add codex-obsidian@codex-obsidian
 ```
 
