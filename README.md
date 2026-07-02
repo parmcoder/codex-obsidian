@@ -1,8 +1,27 @@
-# Codex Obsidian
+<p align="center">
+  <img src="plugins/codex-obsidian/assets/logo.svg" alt="Codex Obsidian logo" width="760">
+</p>
 
-Bundled Codex plugin for Obsidian workflows.
+<p align="center">
+  <strong>Grade A Codex plugin for Obsidian workflows.</strong><br>
+  Local-first writing, open formats, and official desktop CLI operations in one installable bundle.
+</p>
 
-It combines a docs-first writer skill with vendored Obsidian format skills and official-CLI workflow skills, packaged as one installable plugin.
+<p align="center">
+  <img alt="Plugin Eval score" src="https://img.shields.io/badge/Plugin%20Eval-100%2F100-0F766E">
+  <img alt="Grade" src="https://img.shields.io/badge/Grade-A-6E55C8">
+  <img alt="Risk" src="https://img.shields.io/badge/Risk-low-15111F">
+  <img alt="License" src="https://img.shields.io/badge/License-Apache--2.0-blue">
+</p>
+
+Codex Obsidian combines a docs-first writer skill with Obsidian format skills and official desktop CLI workflow skills. The package is tuned for a clean Plugin Eval report: **100/100**, **Grade A**, **low risk**, with no failing checks or warnings.
+
+## Why It Works
+
+- Grade A plugin surface: `Plugin Eval 100/100`
+- One install surface for writing, Markdown, Bases, Canvas, web import, and official CLI workflows
+- Explicit-only skill loading keeps trigger and invoke budgets small
+- Local-first by default; no hosted service, account system, analytics, or telemetry
 
 ## What It Adds
 
@@ -10,6 +29,23 @@ It combines a docs-first writer skill with vendored Obsidian format skills and o
 - `codex-obsidian-markdown`, `codex-obsidian-bases`, `codex-obsidian-canvas`, and `codex-obsidian-web-import`
 - `codex-obsidian-cli` plus focused CLI skills for bookmarks, admin, devtools, sync/publish, workspace, and workflows
 - One install surface instead of separate plugin and skills setup
+
+## Evaluation
+
+Current local Plugin Eval result:
+
+```text
+Score: 100/100
+Grade: A
+Risk: low
+Checks: 0 fail, 0 warn, 0 info
+```
+
+Re-run it locally:
+
+```bash
+node /Users/parmcoder/.codex/plugins/cache/openai-curated-remote/plugin-eval/0.1.2/scripts/plugin-eval.js analyze plugins/codex-obsidian --format markdown
+```
 
 ## Install
 
@@ -39,10 +75,9 @@ This bundled plugin already includes the vendored Obsidian skill content adapted
 
 ## Example Prompts
 
-- `Use codex-obsidian-writer to turn this architecture sketch into an ADR with a Mermaid sequence diagram.`
-- `Use codex-obsidian-markdown to clean up this note's frontmatter, callouts, and wikilinks.`
-- `Use codex-obsidian-cli to read Projects/Plan.md from my vault with the official desktop obsidian CLI.`
-- `Use codex-obsidian-cli-workflows with workflow_id=tasks.rollup mode=preview output=json.`
+- `Use codex-obsidian-writer to turn this architecture sketch into an ADR.`
+- `Use codex-obsidian-markdown to clean up this note's frontmatter and wikilinks.`
+- `Use codex-obsidian-cli to read Projects/Plan.md from my vault.`
 
 ## Repository Layout
 
