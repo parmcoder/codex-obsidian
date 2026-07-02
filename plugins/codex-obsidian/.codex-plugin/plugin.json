@@ -28,6 +28,6 @@
     "privacyPolicyURL": "https://github.com/parmcoder/obsidian-doc-writer/blob/main/PRIVACY.md",
     "termsOfServiceURL": "https://github.com/parmcoder/obsidian-doc-writer/blob/main/TERMS.md",
     "composerIcon": "./assets/icon.svg",
-    "logo": "./assets/logo.svg"
+    "logo": "./assets/logo.png"
   }
 }

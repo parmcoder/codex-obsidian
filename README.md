@@ -1,17 +1,10 @@
 <p align="center">
-  <img src="plugins/codex-obsidian/assets/logo.svg" alt="Codex Obsidian logo" width="760">
+  <img src="plugins/codex-obsidian/assets/logo.png" alt="Codex Obsidian logo" width="360">
 </p>
 
 <p align="center">
   <strong>Grade A Codex plugin for Obsidian workflows.</strong><br>
   Local-first writing, open formats, and official desktop CLI operations in one installable bundle.
-</p>
-
-<p align="center">
-  <img alt="Plugin Eval score" src="https://img.shields.io/badge/Plugin%20Eval-100%2F100-0F766E">
-  <img alt="Grade" src="https://img.shields.io/badge/Grade-A-6E55C8">
-  <img alt="Risk" src="https://img.shields.io/badge/Risk-low-15111F">
-  <img alt="License" src="https://img.shields.io/badge/License-Apache--2.0-blue">
 </p>
 
 Codex Obsidian combines a docs-first writer skill with Obsidian format skills and official desktop CLI workflow skills. The package is tuned for a clean Plugin Eval report: **100/100**, **Grade A**, **low risk**, with no failing checks or warnings.
